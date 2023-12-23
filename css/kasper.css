@@ -1,7 +1,7 @@
 /* Start varables */
 :root {
-    --main-color: #19c8fa;
-    --scandary-color: rgb(15 116 143 / 70%);
+    --main-color: #4db5ff;
+    --scandary-color: #2c2c6c96;
     --paragraph-color: #777;
     --section-padding: 100px;
 }
@@ -115,6 +115,8 @@ header .container::after {
 }
 header img {
     height: 45px;
+    width: 80px;
+    height: 90px;
 }
 header nav {
     flex: 1;
@@ -182,7 +184,7 @@ header .form i {
 /* End header */
 /* Start landing */
 .landing {
-    background-image: url('../images/156013.jpg');
+    background-image: url('../images/nature-1.jpg');
     min-height: 100vh;
     background-size: cover;
 }
@@ -201,10 +203,12 @@ header .form i {
     transform: translateY(-50%);
     color: white;
     width: 45%;
-    padding: 60px 20px;
+    padding: 40px 20px;
     background-color: var(--scandary-color);
     display: flex;
     justify-content: flex-end;
+    border-radius: 0 1rem 1rem 0;
+
 }
 .landing .text .contant {
     width: 500px;
@@ -225,7 +229,7 @@ header .form i {
 }
 .landing .text .contant p {
     font-size: 16px;
-    line-height: 1.8;
+    line-height: 1.4;
 }
 .landing .change-background {
     position: absolute;
