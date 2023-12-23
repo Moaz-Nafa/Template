@@ -54,6 +54,7 @@ ul {
     left: 50%;
     position: relative;
     transform: translateX(-50%);
+    color: #4db5ff;
 }
 .main-heading h2 {
     font-weight: normal;
@@ -67,7 +68,7 @@ ul {
     width: 100px;
     position: absolute;
     height: 2px;
-    background-color: black;
+    background-color: #4db5ff;
     left: 50%;
     transform: translateX(-50%);
     bottom: -30px;
@@ -286,6 +287,8 @@ header .form i {
 }
 .services .srv-box i{
     margin-right: 50px;
+    font-size: 32px;
+    color: #4db5ff;
 }
 @media (max-width: 767px){
     .services .srv-box{
